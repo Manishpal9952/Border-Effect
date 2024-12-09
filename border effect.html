@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Effect</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            background-color: rgb(4, 4, 57);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        button{
+             font-size: 20px;
+             font-weight: 800;
+             padding: 10px 20px;
+             color: white;
+             border: 2px solid white;
+             background-color: black;
+             transition: 0.5s;
+        }
+        button:hover{
+            color: aqua;
+            border: 2px solid aqua;
+            box-shadow: 0 0 10px aqua,
+            0 0 50px aqua,
+            0 0 100px aqua;
+            font-size: 30px;
+            /* padding: 0 30px; */
+        }
+    </style>
+</head>
+<body>
+    <button>BUTTON</button>
+    <button>BUTTON</button>
+    <button>BUTTON</button>
+</body>
+</html>
